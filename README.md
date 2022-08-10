@@ -1,7 +1,15 @@
-# Read Me
+# T49 Fullstack Evaluation Bakend - Python
 
-Load deps
-```pip3 install -r requirements.txt```
+## Pre requisites
+- Python 3
+- SQLite
 
-Run the app in dev mode
-```uvicorn main:app --reload```
+## Load dependencies
+```
+pip3 install -r requirements.txt
+```
+
+## Run the app in dev mode
+```
+uvicorn main:app --reload
+```
