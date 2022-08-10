@@ -13,3 +13,7 @@ pip3 install -r requirements.txt
 ```
 uvicorn main:app --reload
 ```
+
+## Useful Docs
+[FastAPI](https://fastapi.tiangolo.com)
+[sqlite-utils](https://sqlite-utils.datasette.io/en/stable/)

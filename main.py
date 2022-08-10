@@ -14,10 +14,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/")
-async def root():
-    return {"message": "Hello Edy"}
-
 @app.get("/entry/{bl}")
 async def read_item(bl):
 
