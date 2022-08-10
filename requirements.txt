@@ -1,0 +1,4 @@
+sqlite-utils
+uvicorn
+flask
+FastApi
